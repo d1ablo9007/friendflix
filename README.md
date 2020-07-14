@@ -1,21 +1,25 @@
 # 🎉Friendflix
 
-> Watch Netflix simultaneously with your friends! (Styled version of LongDistance)
+> Watch Netflix simultaneously with your friends!
 
-## How to build
+## How to install/build
 
+- Clone repository `git clone https://github.com/d1ablo9007/friendflix.git`
+- CD to cloned repository `cd friendflix`
 - Be sure to run `npm install`
 - To build the extension run `npm run build`
 - To build the extension and run the server `npm run dev`
-- To run the server exclusively `npm run start`
+- To run server only `npm run start`
 
 ## How to configure the server
+To change the IP of the server
 
-- `constants.js` contains a variable `WS_URL` that represents your websocket server URL
-- Modify that variable, then re-build the extension
-- You should be able to deploy the server and extension now
+- Go to shared folder
+- Open `constants.js`
+- Scroll down to `WS_URL` (this represents your websocket server URL)
+- Change IP to yours
 
-## How to deploy/test
+## How to add extension to chrome
 
 - Navigate to chrome://extensions
 - Click on "Load unpacked extension"
