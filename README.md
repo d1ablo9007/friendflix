@@ -18,6 +18,7 @@ To change the IP of the server
 - Open `constants.js`
 - Scroll down to `WS_URL` (this represents your websocket server URL)
 - Change IP to yours
+- Rebuild the extension with `npm run build`
 
 ## How to add extension to chrome
 
