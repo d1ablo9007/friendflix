@@ -1,6 +1,6 @@
-# Friendflix
+# 🎉Friendflix
 
-> Watch Netflix simultaneously with your friends!
+> Watch Netflix simultaneously with your friends! (Styled version of LongDistance)
 
 ## How to build
 
@@ -23,4 +23,5 @@
 
 ## Credits
 
-Check out the Jonnylin13 [WIKI](https://github.com/jonnylin13/LongDistance) 
+All credits goes towards Jonnylin13's LongDistance repository.
+Check out the Jonnylin13 [LongDistance](https://github.com/jonnylin13/LongDistance) 
