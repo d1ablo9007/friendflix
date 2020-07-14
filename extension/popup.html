@@ -14,17 +14,28 @@
 
   <body>
     <div id="connect-lobby-container" class="container">
-      <input type="text" id="lobby-id" />
-      <button id="connect-confirm-btn" class="btn-success">Connect</button>
-      <button id="connect-btn-back" class="btn-danger">Nevermind</button>
+      <h5>&#127881;<b>Friendflix</b></h5><br>
+      <input type="text" id="lobby-id" placeholder="Your Party ID" /><br><br>
+      <div class="buttoncontainer">
+      <button id="connect-confirm-btn" class="btn-success">Join</button>
+      <button id="connect-btn-back" class="btn-danger">Cancel</button>
+      </div>
     </div>
     <div id="in-lobby-container" class="container">
-      <p id="lobby-id-text"></p>
+      <h5>&#127881;<b>Friendflix</b></h5><br>
+      <p>Your Party ID:</p>
+      <b><p id="lobby-id-text"></p></b>
+      <div class="buttoncontainer">
       <button id="disconnect-btn" class="btn-warning">Disconnect</button>
+      </div>
     </div>
     <div id="out-lobby-container" class="container">
-      <button id="start-lobby-btn" class="btn-success">Start lobby</button>
-      <button id="connect-btn" class="btn-success">Connect to lobby</button>
+      <h5>&#127881;<b>Friendflix</b></h5>
+      <p>Watch Netflix with your friends!</p>
+      <div class="buttoncontainer">
+        <button id="start-lobby-btn" class="btn-success">Start party</button>
+        <button id="connect-btn" class="btn-success">Join party</button>
+</div>
     </div>
   </body>
 </html>

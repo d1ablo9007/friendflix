@@ -1,23 +1,44 @@
 .container {
-    padding: 15px;
+    padding: 25px !important;
     text-align: center;
 }
 
 button {
-    margin-bottom: 5px !important;
+  float:left;
+  margin:2px;
+  padding-bottom: 15px;
+  justify-content: center;
 }
 
-button:last-child {
-    margin-bottom: 0px !important;
+.buttoncontainer {
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 .hidden {
     display: none;
 }
-/* very hacky */
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;
+}
+
+:-ms-input-placeholder {
+   text-align: center;
+}
 
 body {
     height: 100px !important;
+    width: 350px !important;
 }
 
 html {
@@ -26,6 +47,7 @@ html {
 
 input {
     margin-bottom: 10px;
+    text-align:center;
 }
 
 div {

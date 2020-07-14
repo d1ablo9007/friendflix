@@ -1,7 +1,12 @@
 {
   "name": "Friendflix",
-  "description": "Create lobbies with an invite code and watch Netflix with your friends!",
-  "version": "0.0.8",
+  "description": "Watch Netflix simultaneously with your friends!",
+  "version": "1.0.0",
+  "icons": {
+  "16": "icon16.png",
+  "48": "icon48.png",
+  "128": "icon128.png"
+},
   "manifest_version": 2,
   "permissions": [
     "tabs",
