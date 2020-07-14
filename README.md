@@ -26,6 +26,12 @@ To change the IP of the server
 - Click on "Load unpacked extension"
 - Select the `build/` folder after building the extension
 
+## Screenshots
+![alt text](https://i.ibb.co/QPxHWZ6/last-ned.png)
+![alt text](https://i.ibb.co/fkxGfHf/last-ned-1.png)
+![alt text](https://i.ibb.co/7g1vtF3/last-ned-3.png)
+![alt text](https://i.ibb.co/yn6tnTk/last-ned-2.png)
+
 ## Credits
 
 All credits goes towards Jonnylin13's LongDistance repository.
