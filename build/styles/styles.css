@@ -1,0 +1,55 @@
+.container {
+    padding: 25px !important;
+    text-align: center;
+}
+
+button {
+  float:left;
+  margin:2px;
+  padding-bottom: 15px;
+  justify-content: center;
+}
+
+.buttoncontainer {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;
+}
+
+:-ms-input-placeholder {
+   text-align: center;
+}
+
+body {
+    height: 100px !important;
+    width: 350px !important;
+}
+
+html {
+    height: 100px !important;
+}
+
+input {
+    margin-bottom: 10px;
+    text-align:center;
+}
+
+div {
+    animation-duration: 650ms !important;
+}

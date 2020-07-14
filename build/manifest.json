@@ -1,0 +1,27 @@
+{
+  "name": "Friendflix",
+  "description": "Watch Netflix simultaneously with your friends!",
+  "version": "1.0.0",
+  "icons": {
+  "16": "icon16.png",
+  "48": "icon48.png",
+  "128": "icon128.png"
+},
+  "manifest_version": 2,
+  "permissions": [
+    "tabs",
+    "declarativeContent",
+    "activeTab",
+    "webNavigation",
+    "https://*/",
+    "http://*/"
+  ],
+  "background": {
+    "scripts": ["ldn.bundle.js"],
+    "persistent": true
+  },
+  "page_action": {
+    "default_popup": "popup.html"
+  },
+  "web_accessible_resources": ["controller.bundle.js"]
+}

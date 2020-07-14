@@ -1,0 +1,22 @@
+{
+  "name": "Friendflix",
+  "description": "Create lobbies with an invite code and watch Netflix with your friends!",
+  "version": "0.0.8",
+  "manifest_version": 2,
+  "permissions": [
+    "tabs",
+    "declarativeContent",
+    "activeTab",
+    "webNavigation",
+    "https://*/",
+    "http://*/"
+  ],
+  "background": {
+    "scripts": ["ldn.bundle.js"],
+    "persistent": true
+  },
+  "page_action": {
+    "default_popup": "popup.html"
+  },
+  "web_accessible_resources": ["controller.bundle.js"]
+}
