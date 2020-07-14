@@ -1,11 +1,6 @@
-# LongDistance
+# Friendflix
 
-> Create lobbies to synchronize Netflix viewing among multiple clients through this Chrome extension
-
-## How to contribute
-
-- Suggest new ideas/submit issues
-- I will accept pretty much all pull requests initially
+> Watch Netflix simultaneously with your friends!
 
 ## How to build
 
@@ -26,6 +21,6 @@
 - Click on "Load unpacked extension"
 - Select the `build/` folder after building the extension
 
-## Wiki
+## Credits
 
-Check out the [WIKI](https://github.com/jonnylin13/LongDistance/wiki) for more help!
+Check out the Jonnylin13 [WIKI](https://github.com/jonnylin13/LongDistance) 
