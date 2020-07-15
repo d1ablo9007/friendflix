@@ -2,13 +2,13 @@
 
 > Watch Netflix simultaneously with your friends!
 
-## How to install/build
+## How to setup
 
 - Clone repository `git clone https://github.com/d1ablo9007/friendflix.git`
 - CD to cloned repository `cd friendflix`
-- Be sure to run `npm install`
-- To build the extension run `npm run build`
-- To build the extension and run the server `npm run dev`
+- Install required dependencies `npm install`
+- To build the chrome extension run `npm run build`
+- To build the chrome extension and run the server `npm run dev`
 - To run server only `npm run start`
 
 ## How to configure the server
